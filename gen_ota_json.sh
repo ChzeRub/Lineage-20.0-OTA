@@ -41,7 +41,7 @@ sed -i "s!${oldsize}! \"${size}\",!g" $DEVICE.json
 sed -i "s!${oldd}!${d}!" $DEVICE.json
 
 git add $DEVICE.json
-git commit -m "Update ${DEVICE} to ${d}"
+git commit -m "lineage-20.0-${d}-UNOFFICIAL-${DEVICE}"
 git push
 
 hub release create -a ../out/target/product/$DEVICE/$FILENAME -a changelog.txt -m "${TAG}" "${TAG}"
