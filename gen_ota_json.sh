@@ -32,7 +32,7 @@ echo "########################################" >> changelog.txt
 
 #Update $DEVICE.json
 TAG=$(echo "${DEVICE}-${d}")
-url="https://github.com/ChzeRub/Lineage-20.0/releases/download/${TAG}/${FILENAME}"
+url="https://github.com/ChzeRub/Lineage-20.0-OTA/releases/download/${TAG}/${FILENAME}"
 sed -i "s!${oldurl}! \"${url}\",!g" $DEVICE.json
 
 sed -i "s!${oldmd5}! \"${md5}\",!g" $DEVICE.json
