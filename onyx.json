@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": "1702326160",
-      "filename": "lineage-20.0-20231211-UNOFFICIAL-onyx.zip",
-      "id": "0c9d27867d20c5e614e701ed541edf10",
+      "datetime": "1705197149",
+      "filename": "lineage-20.0-20240114-UNOFFICIAL-onyx.zip",
+      "id": "27d81c7ab14d6e528019dbfa899b87ba",
       "romtype": "UNOFFICIAL",
-      "size": "636812773",
-      "url": "https://github.com/ChzeRub/Lineage-20.0-OTA/releases/download/onyx-20231211/lineage-20.0-20231211-UNOFFICIAL-onyx.zip",
+      "size": "637149594",
+      "url": "https://github.com/ChzeRub/Lineage-20.0-OTA/releases/download/onyx-20240114/lineage-20.0-20240114-UNOFFICIAL-onyx.zip",
       "version": "20.0"
     }
   ]
