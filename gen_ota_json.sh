@@ -40,8 +40,8 @@ sed -i "s!${oldutc}! \"${utc}\",!g" $DEVICE.json
 sed -i "s!${oldsize}! \"${size}\",!g" $DEVICE.json
 sed -i "s!${oldd}!${d}!" $DEVICE.json
 
+hub release create -a ../out/target/product/$DEVICE/$FILENAME -a changelog.txt -m "${TAG}" "${TAG}"
+
 git add $DEVICE.json
 git commit -m "lineage-20.0-${d}-UNOFFICIAL-${DEVICE}"
 git push
-
-hub release create -a ../out/target/product/$DEVICE/$FILENAME -a changelog.txt -m "${TAG}" "${TAG}"
